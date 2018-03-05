@@ -30,7 +30,7 @@ int main()
 	 
 	
     Ausgabe();
-    while (1)  //Schleife 1 ist immer erfüllt
+    while (1)  //Schleife 1 ist immer erfÃ¼llt
     {  
         
         if (b==1)
@@ -86,14 +86,14 @@ int Eingabe()
     int a;
     system("color 0A");
     
-    cout << "Wählen sie ein Feld aus ";
+    cout << "WÃ¤hlen sie ein Feld aus ";
     cin>> a;
     
     	while(Feld2[a]==true)
     	{	
     
    
-		cout << "Wählen sie ein neues Feld aus ";
+		cout << "WÃ¤hlen sie ein neues Feld aus ";
     	cin>> a;
 	
     
@@ -158,7 +158,7 @@ int Computer()
 	int a=0;
 	srand(time(NULL));
 	
-cout << "Wählen sie ein Feld aus ";
+cout << "WÃ¤hlen sie ein Feld aus ";
 a = (rand() %10);
 
     
